@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brews and Bakes</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0; padding: 0;
+            background-color: #fef9f4;
+            color: #4b3b2b;
+        }
+        header {
+            background-color: #6f4e37;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 3px;
+        }
+        header p {
+            margin-top: 10px;
+            font-style: italic;
+            font-size: 1.2em;
+            color: #d9c4b6;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: #f0e6dc;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #e9c46a;
+        }
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        section#menu {
+            margin-top: 50px;
+        }
+        h2 {
+            color: #6f4e37;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        ul li {
+            background-color: #e5d4ba;
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            font-size: 1.1em;
+            cursor: default;
+            user-select: none;
+        }
+        section#contact {
+            margin-top: 50px;
+            font-size: 1.1em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6f4e37;
+            color: #fff;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brews and Bakes</h1>
+        <p><em>Fresh Brew Everyday</em></p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <ul>
+                <li>Espresso</li>
+                <li>Cappuccino</li>
+                <li>Latte</li>
+                <li>Mocha</li>
+                <li>Freshly Baked Croissants</li>
+                <li>Chocolate Muffins</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>📞 Phone: +880 1234 567890</p>
+            <p>📧 Email: info@brewsandbakes.com</p>
+            <p>📍 Address: 123 Coffee St, Dhaka, Bangladesh</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Brews and Bakes. All rights reserved.
+    </footer>
+</body>
+</html>
